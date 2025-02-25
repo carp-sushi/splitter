@@ -1,0 +1,30 @@
+cabal-version:       2.2
+
+name:                splitter
+version:             0.1.0.0
+homepage:            https://github.com/carp-sushi/splitter#readme
+license:             BSD-3-Clause
+license-file:        LICENSE
+author:              carp-sushi
+maintainer:          105142707+carp-sushi@users.noreply.github.com
+copyright:           Copyright 2025-present, the original author(s)
+category:            Web
+build-type:          Simple
+extra-source-files:  README.md
+
+executable splitter
+  hs-source-dirs: src
+  main-is: Main.hs
+  default-language: Haskell2010
+  build-depends:
+      base >= 4.7 && < 5
+    , utils
+  ghc-options: -Wall
+               -Wcompat
+               -Widentities
+               -Wincomplete-record-updates
+               -Wincomplete-uni-patterns
+               -Wmissing-export-lists
+               -Wmissing-home-modules
+               -Wpartial-fields
+               -Wredundant-constraints
