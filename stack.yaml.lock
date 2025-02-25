@@ -5,15 +5,15 @@
 
 packages:
 - completed:
-    commit: cb4f28f2d71eb473ae43bfe519bd90d0823c1543
+    commit: 6ae9224ef0f88e94670a4c45bd857c7d22166161
     git: https://github.com/carp-sushi/utils
     name: utils
     pantry-tree:
-      sha256: 424682e24ca192cf38ecb06b2b2119e83400a47cf1afaf58ec6fcb4e5bfa4ed7
-      size: 688
+      sha256: 77fe16725924fa90064424f49a9e5217554bc2de04efa8f87d103c6f95f982d7
+      size: 518
     version: 0.1.0.0
   original:
-    commit: cb4f28f2d71eb473ae43bfe519bd90d0823c1543
+    commit: 6ae9224ef0f88e94670a4c45bd857c7d22166161
     git: https://github.com/carp-sushi/utils
 snapshots:
 - completed:
